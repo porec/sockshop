@@ -20,6 +20,7 @@ spec:
     metadata:
       labels:
         name: carts
+        env: prod
     spec:
       containers:
       - name: carts
@@ -88,6 +89,7 @@ spec:
     metadata:
       labels:
         name: carts-db
+        env: prod
     spec:
       containers:
       - name: carts-db
@@ -145,6 +147,7 @@ spec:
     metadata:
       labels:
         name: catalogue
+        env: prod
     spec:
       containers:
       - name: catalogue
@@ -218,6 +221,7 @@ spec:
     metadata:
       labels:
         name: catalogue-db
+        env: prod
     spec:
       containers:
       - name: catalogue-db
@@ -262,6 +266,7 @@ spec:
     metadata:
       labels:
         name: front-end
+        env: prod
     spec:
       containers:
       - name: front-end
@@ -334,6 +339,7 @@ spec:
     metadata:
       labels:
         name: orders
+        env: prod
     spec:
       containers:
       - name: orders
@@ -402,6 +408,7 @@ spec:
     metadata:
       labels:
         name: orders-db
+        env: prod
     spec:
       containers:
       - name: orders-db
@@ -459,6 +466,7 @@ spec:
     metadata:
       labels:
         name: payment
+        env: prod
     spec:
       containers:
       - name: payment
@@ -529,6 +537,7 @@ spec:
     metadata:
       labels:
         name: queue-master
+        env: prod
     spec:
       containers:
       - name: queue-master
@@ -581,6 +590,7 @@ spec:
     metadata:
       labels:
         name: rabbitmq
+        env: prod
       annotations:
         prometheus.io/scrape: "false"
     spec:
@@ -649,6 +659,7 @@ spec:
     metadata:
       labels:
         name: session-db
+        env: prod
       annotations:
         prometheus.io.scrape: "false"
     spec:
@@ -701,6 +712,7 @@ spec:
     metadata:
       labels:
         name: shipping
+        env: prod
     spec:
       containers:
       - name: shipping
@@ -772,6 +784,7 @@ spec:
     metadata:
       labels:
         name: user
+        env: prod
     spec:
       containers:
       - name: user
@@ -846,6 +859,7 @@ spec:
     metadata:
       labels:
         name: user-db
+        env: prod
     spec:
       containers:
       - name: user-db
