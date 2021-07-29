@@ -20,7 +20,7 @@ spec:
     metadata:
       labels:
         name: carts
-        env: dev
+        environment: dev
     spec:
       containers:
       - name: carts
@@ -89,7 +89,7 @@ spec:
     metadata:
       labels:
         name: carts-db
-        env: dev
+        environment: dev
     spec:
       containers:
       - name: carts-db
@@ -147,7 +147,7 @@ spec:
     metadata:
       labels:
         name: catalogue
-        env: dev
+        environment: dev
     spec:
       containers:
       - name: catalogue
@@ -221,7 +221,7 @@ spec:
     metadata:
       labels:
         name: catalogue-db
-        env: dev
+        environment: dev
     spec:
       containers:
       - name: catalogue-db
@@ -266,7 +266,7 @@ spec:
     metadata:
       labels:
         name: front-end
-        env: dev
+        environment: dev
     spec:
       containers:
       - name: front-end
@@ -339,7 +339,7 @@ spec:
     metadata:
       labels:
         name: orders
-        env: dev
+        environment: dev
     spec:
       containers:
       - name: orders
@@ -408,7 +408,7 @@ spec:
     metadata:
       labels:
         name: orders-db
-        env: dev
+        environment: dev
     spec:
       containers:
       - name: orders-db
@@ -466,7 +466,7 @@ spec:
     metadata:
       labels:
         name: payment
-        env: dev
+        environment: dev
     spec:
       containers:
       - name: payment
@@ -537,7 +537,7 @@ spec:
     metadata:
       labels:
         name: queue-master
-        env: dev
+        environment: dev
     spec:
       containers:
       - name: queue-master
@@ -590,7 +590,7 @@ spec:
     metadata:
       labels:
         name: rabbitmq
-        env: dev
+        environment: dev
       annotations:
         prometheus.io/scrape: "false"
     spec:
@@ -659,7 +659,7 @@ spec:
     metadata:
       labels:
         name: session-db
-        env: dev
+        environment: dev
       annotations:
         prometheus.io.scrape: "false"
     spec:
@@ -712,7 +712,7 @@ spec:
     metadata:
       labels:
         name: shipping
-        env: dev
+        environment: dev
     spec:
       containers:
       - name: shipping
@@ -784,7 +784,7 @@ spec:
     metadata:
       labels:
         name: user
-        env: dev
+        environment: dev
     spec:
       containers:
       - name: user
@@ -859,7 +859,7 @@ spec:
     metadata:
       labels:
         name: user-db
-        env: dev
+        environment: dev
     spec:
       containers:
       - name: user-db
